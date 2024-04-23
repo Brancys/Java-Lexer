@@ -53,12 +53,6 @@ void process_identifier(const char* id);
 "<"                                         { printf("Op-Menor= %s ", yytext); }
 "<>"                                        { printf("Op-diferente= %s ", yytext); }
 
-
-"&&"                                        { printf("op-y= && "); }
-"||"                                        { printf("op-o= || "); }
-"!"                                         { printf("op-no= ! "); }
-
-
 "{"                                         { printf("Llave-a= { "); }
 "}"                                         { printf("Llave-c= } "); }
 ";"                                         { printf("Punto-coma=;"); }
@@ -67,6 +61,9 @@ void process_identifier(const char* id);
 "["                                         { printf("Corchete-a= [ "); }
 "]"                                         { printf("Corchete-c= ] "); }
 
+"&&"                                        { printf("op-y= && "); }
+"||"                                        { printf("op-o= || "); }
+"!"                                         { printf("op-no= ! "); }
 
 
 [0-9]+"."[0-9]*([eE][-+]?[0-9]+)?           { printf("Cte-real= %s ", yytext); }
