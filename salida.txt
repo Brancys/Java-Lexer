@@ -1,0 +1,34 @@
+Coment=  COMENTARIO
+Coment=  COMMENT GASJDBASJDASBDJKABSLD 
+PUBLIC CLASS Id1= AnyThing Llave-a= { 
+PUBLIC STATIC VOID Id2= main Parent-a= ( STRING Corchete-a= [ Corchete-c= ] Id3= args Parent-c= ) Llave-a= { 
+INT Id4= i Op_asig= = Cte-ent= 1 Punto-coma=;
+INT Id5= j ERROR: =? Cte-ent= 20 Punto-coma=;
+CHAR Id6= c Punto-coma=;
+STRING Id7= cadena Punto-coma=;
+DOUBLEId8= z Punto-coma=;
+Id8= z Op_asig= = Cte-real= 14.9e-8 Punto-coma=;
+Id8= z Op_asig= = Cte-real= 12.9 Punto-coma=;
+Id7= cadena Op_asig= = Cte-cadena= "Hola" Punto-coma=;
+Id6= c Op_asig= = Cte-cadena= "a" Punto-coma=;
+Id4= i Op_asig= = ERROR= 2i Punto-coma=;
+FOR Parent-a= ( INT Id9= k Op_asig= = Cte-ent= 1 Punto-coma=;Id9= k Op-Menor= < Id5= j Punto-coma=;Id9= k Op-MasMas= ++ Parent-c= ) Llave-a= { 
+Id4= i Op-porAsig= *= Id9= k Punto-coma=;
+Id8= z Op-divAsig= /= Cte-real= 2.0 Punto-coma=;
+Llave-c= } 
+Llave-c= } 
+Llave-c= } 
+
+
+TABLA DE IDENTIFICADORES
+Hay 9 identificadores
+Id1= AnyThing
+Id2= main
+Id3= args
+Id4= i
+Id5= j
+Id6= c
+Id7= cadena
+Id8= z
+Id9= k
+2 errores léxicos
