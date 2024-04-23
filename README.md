@@ -6,11 +6,10 @@ Requisitos:
   -	Flex  instalado en un sistema operativo compatible.
   -	Compilador GCC para compilar y ejecutar el programa generado por Flex.
 
-## Adecuacion del Entorno
+## Adecuacion del Entorno (En terminal)
 
-  1.	Abra la terminal.
-  2.	Ejecute `sudo apt update` para actualizar los paquetes.
-  3.	Instale Flex y GCC con `sudo apt install flex gcc`.
+  1.	Ejecute `sudo apt update` para actualizar los paquetes.
+  2.	Instale Flex y GCC con `sudo apt install flex gcc`.
 
 ### Compilación y Ejecución
 
