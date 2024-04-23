@@ -19,14 +19,14 @@ Requisitos del Sistema
   1.	Guarde los archivos adjuntos del código del programa.
   2.	En la terminal, navegue al directorio donde se encuentra el archivo y ejecute el siguiente comando para generar el código fuente en C (en caso de que no exista el archivo .c):
 
-  `flex -o LAB01_Arteaga_Cardona_Dominguez_Pinerda.c LAB01_Arteaga_Cardona_Dominguez_Pinerda.l`
+  `flex -o LAB01_Barrios_Rey_Gutierrez_Villarreal.c LAB01_LAB01_Barrios_Rey_Gutierrez_Villarreal.l`
 
   3.	Compile el código generado con GCC: (en caso de que no esté compilado en su directorio):
 
-  `gcc LAB01_Arteaga_Cardona_Dominguez_Pinerda.c -o LAB01_Arteaga_Cardona_Dominguez_Pinerda -lfl`
+  `gcc LAB01_Barrios_Rey_Gutierrez_Villarreal.c -o LAB01_LAB01_Barrios_Rey_Gutierrez_Villarreal -lfl`
 
   4.	Ejecute el programa, debe añadir el archivo de entrada que se desea analizar como mostramos a continuación:
-   `./LAB01_Arteaga_Cardona_Dominguez_Pinerda entrada.txt > salida.txt `
+   `./LAB01_LAB01_Barrios_Rey_Gutierrez_Villarreal entrada.txt > salida.txt `
 
 ## Funcionalidades del Programa
 
