@@ -1,40 +1,41 @@
-# Manual de Usuario: Analizador Léxico con Flex
-## Descripción General
-Este programa utiliza Flex para analizar léxicamente un conjunto de tokens, operadores y estructuras de control dentro de código fuente. Identifica y categoriza constantes enteras, reales, cadenas, identificadores, operadores, comentarios y estructuras de control, mostrando los resultados directamente en la consola. También detecta y reporta errores léxicos.
-Requisitos del Sistema
+# Java-Lexer USER GUIDE
+Este programa emplea Flex para realizar un análisis léxico de tokens, operadores y estructuras de control en código fuente. Distingue y clasifica constantes enteras, reales, cadenas, identificadores, operadores, comentarios y estructuras de control, y muestra los resultados directamente en la consola. Además, identifica y reporta errores léxicos.
 
-  -	Flex instalado en un sistema operativo compatible (Linux).
+Requisitos:
+
+  -	Flex  instalado en un sistema operativo compatible.
   -	Compilador GCC para compilar y ejecutar el programa generado por Flex.
 
-## Instalación de Prerrequisitos:
-
-### Linux (Debian/Ubuntu):
+## Adecuacion del Entorno
 
   1.	Abra la terminal.
   2.	Ejecute `sudo apt update` para actualizar los paquetes.
   3.	Instale Flex y GCC con `sudo apt install flex gcc`.
 
-### Instalación y Ejecución del programa
+### Compilación y Ejecución
 
   1.	Guarde los archivos adjuntos del código del programa.
-  2.	En la terminal, navegue al directorio donde se encuentra el archivo y ejecute el siguiente comando para generar el código fuente en C (en caso de que no exista el archivo .c):
+  2.	En la terminal, navegue al directorio donde se encuentra el archivo:
+       `cd ruta/al/directorio`
+  4.  Ejecute el siguiente comando para generar el código fuente:
 
-  `flex -o LAB01_Barrios_Rey_Gutierrez_Villarreal.c LAB01_LAB01_Barrios_Rey_Gutierrez_Villarreal.l`
-
-  3.	Compile el código generado con GCC: (en caso de que no esté compilado en su directorio):
+  `flex -o LAB01_Barrios_Rey_Gutierrez_Villarreal.c LAB01_LAB01_Barrios_Rey_Gutierrez_Villarreal.l` 
+  
+  4.	Compile el código generado con GCC: (en caso de que no esté compilado en su directorio):
 
   `gcc LAB01_Barrios_Rey_Gutierrez_Villarreal.c -o LAB01_LAB01_Barrios_Rey_Gutierrez_Villarreal -lfl`
 
-  4.	Ejecute el programa, debe añadir el archivo de entrada que se desea analizar como mostramos a continuación:
+  5.	Ejecute el programa, debe añadir el archivo de entrada que se desea analizar como mostramos a continuación:
    `./LAB01_LAB01_Barrios_Rey_Gutierrez_Villarreal entrada.txt > salida.txt `
 
-## Funcionalidades del Programa
+## Casos de Uso
 
-El programa reconoce y procesa distintos tipos de tokens, maneja errores léxicos y almacena identificadores. Provee salida detallada de los elementos reconocidos durante el análisis.
+El programa es capaz de identificar y procesar diversos tipos de tokens, gestionar errores léxicos y registrar identificadores. Además, proporciona un informe detallado de los elementos detectados durante el análisis.
 
 ## Estructura del Programa
-El programa está estructurado en secciones que definen tokens, manejan comentarios y errores, y procesan identificadores. La lógica principal se encuentra en la función `main`, que prepara la ejecución y muestra los resultados.
 
-## Salida del Programa
+El programa se organiza en secciones dedicadas a la definición de tokens, el manejo de comentarios y errores, y el procesamiento de identificadores. La función principal 'main' configura la ejecución y presenta los resultados.
 
-La ejecución del programa produce una salida en un archivo que indica la categoría y valor de cada token procesado, seguido de un resumen de los identificadores encontrados y el recuento de errores léxicos.
+## Output
+
+El programa genera un archivo de salida que muestra la categoría y el valor de cada token procesado, acompañado de un resumen de los identificadores detectados y un conteo de los errores léxicos encontrados.
