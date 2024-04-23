@@ -14,7 +14,7 @@ Requisitos:
 ### Compilación y Ejecución
 
   1.	Guarde los archivos adjuntos del código del programa.
-  2.	En la terminal, navegue al directorio donde se encuentran los archivo:
+  2.	En la terminal, navegue al directorio donde se encuentran los archivos:
        `cd ruta/al/directorio`
   4.  Ejecute el siguiente comando para generar el código fuente:
 
